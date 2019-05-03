@@ -14,7 +14,7 @@ end
 def assign_rooms(attendees)
     roomlist = []
     attendees.each do |name|
-      roomlist.push "Hello, #{name}, you'll be assigned to room#{attendees.to_index}!"
+      roomlist.push "Hello, #{name}, you'll be assigned to room#{attendees.index}!"
 
     end
     roomlist
