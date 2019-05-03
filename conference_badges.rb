@@ -8,5 +8,5 @@ def batch_badge_creator(attendees)
    attendees.collect do |name|
     attendees.push  "Hello, my name is #{name}"
    end
-   
+
 end
