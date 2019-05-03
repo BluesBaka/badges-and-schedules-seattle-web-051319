@@ -17,5 +17,5 @@ def assign_rooms(attendees)
       roomlist.push "Hello, #{name}, you'll be assigned to room"
 
     end
-
+    roomlist
   end
