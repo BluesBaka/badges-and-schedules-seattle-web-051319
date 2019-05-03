@@ -25,5 +25,5 @@ def assign_rooms(attendees)
       attendees.each_with_index do |name, index|
         badges_and_room_assignments.push "Hello, my name is #{name}."
       end
-      puts badges_and_room_assignments[0]
+      puts badges_and_room_assignments
   end
