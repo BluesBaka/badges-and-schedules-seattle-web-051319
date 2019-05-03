@@ -23,5 +23,7 @@ def assign_rooms(attendees)
   def printer(attendees)
       badges_and_room_assignments = []
       attendees.each_with_index do |name, index|
-        badges_and_room_assignments.push "Hello, my name is #{name}"
+        badges_and_room_assignments.push "Hello, my name is #{name}."
+      end
+      badges_and_room_assignments
   end
